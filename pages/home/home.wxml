@@ -1,0 +1,8 @@
+<view  class='home-in' bindtap='go_index'>
+  <view>
+    <image class="userinfo-head-icon" src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class='dis-flex home-name-title-align'>
+    <text class='home-name-title'>{{userInfo.nickName}}の手账</text>
+  </view>
+</view>
